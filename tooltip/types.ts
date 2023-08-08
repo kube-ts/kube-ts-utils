@@ -1,4 +1,6 @@
-import { FieldsConfig } from './config';
+import { FieldsConfig } from '../configs/tooltip';
+import { Color } from './colors';
+import { Decoration } from './decorations';
 
 /**
  * Tooltip description.
@@ -13,7 +15,7 @@ interface TooltipConfig {
 	/**
 	 * Text color.
 	 */
-	[FieldsConfig.color]?: string;
+	[FieldsConfig.color]?: Color;
 
     /**
      * Line.
@@ -23,7 +25,7 @@ interface TooltipConfig {
     /**
      * Text decoration.
      */
-    [FieldsConfig.decoration]?: string;
+    [FieldsConfig.decoration]?: Decoration[];
 }
 
 export {

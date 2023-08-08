@@ -1,15 +1,3 @@
-interface IColor {
-	Blue: string,
-	Green: string,
-	OceanBlue: string,
-	Red: string,
-	Purple: string,
-	Yellow: string,
-	Grey: string,
-	DarkGrey: string,
-	LightBlue: string
-}
-
 enum Color {
 	Blue = '§1',
 	Green = '§2',
@@ -19,7 +7,13 @@ enum Color {
 	Yellow = '§6',
 	Grey = '§7',
 	DarkGrey = '§8',
-	LightBlue = '§9'
+	LightBlue = '§9',
+
+    NeonGreen = '§a',
+    NeonCyan = '§b',
+    NeonRed = '§c',
+    NeonPurple = '§d',
+    NeonYellow= '§e'
 }
 
 export {
